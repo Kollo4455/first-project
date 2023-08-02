@@ -34,4 +34,4 @@ git push
 git push -u origin master
 ```
 
-[Ссылка](https://github.com/Kollo4455 "Мой профиль")
+2. [Ссылка](https://github.com/Kollo4455 "Мой профиль")
