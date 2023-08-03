@@ -33,6 +33,28 @@ git commit --amend --no-edit
 git push
 ```
 
+* restored - откат файлов в коммитах  
+
+Команда переведёт файл из staged обратно в modified или untracked.
+
+```bash
+git restore --staged <file>
+```
+
+Команда «откатит» изменения в файле до последней сохранённой (в коммите или в staging) версии.
+
+```bash
+git restore <file>
+```
+
+* reset - откат коммита
+
+Команда «откатит» историю до коммита с хешем . Более поздние коммиты потеряются!
+
+```bash
+git reset --hard <commit hash>
+```
+
 ---
 
 ## **Дополнение**  
